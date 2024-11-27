@@ -1,0 +1,150 @@
+h2 {
+    font: size 25px;px;
+    color:rgb(0, 255, 34);
+    margin-top: 35px;
+    background-color: rgb(255, 0, 170);
+    border-radius: 20px;
+    text-align: center;
+}
+h1 {
+    color:rgb(170, 0, 0);
+    background-color: rgb(255, 175, 175);
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h3 {
+    padding: 0;
+    font-size: xx-large;
+}
+
+body {
+  background: linear-gradient(#7eff79,#ffb9b9,#ff0000) ;
+}
+
+.cards {
+  height: 275px;
+  display: inline-block;
+}
+
+.cards3 {
+  height: 305px;
+  display: inline-block;
+}
+
+.cards4 {
+  height: 250px;
+  display: inline-block;
+}
+
+.cards2 {
+  margin-top: 70px;
+  margin-bottom: 80px;
+  height: 90px;
+  align-items: center;
+  justify-content: space-evenly ;
+}
+
+iframe {
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .box {
+    width: 150px;
+    height: 200px;
+    background-color: rgb(119, 0, 0);
+    border: 5px solid rgb(255, 141, 141);
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    transition: 400ms;
+    float: left;
+    padding: 5px;
+  }
+
+  img {
+    height: 200px;
+    display: block;
+    border-radius: 20px;
+  }
+
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust button size */
+    font-size: 28px; /* Adjust font size */
+    font-family: Arial, sans-serif; /* Button font */
+    color: white; /* Text color */
+    background-color: #07c500; /* Button background color */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Adds rounded corners */
+    cursor: pointer; /* Adds a pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+    text-decoration: none; /* Remove underline if it's a link */
+  }
+  .button:hover {
+    background-color: #024700; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarges button */
+  }
+
+  .button:active {
+    background-color: #053b00; /* Even darker blue on click */
+    transform: scale(0.95); /* Slightly shrinks button on click */
+  }
+
+  .button2 {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust button size */
+    font-size: 28px; /* Adjust font size */
+    font-family: Arial, sans-serif; /* Button font */
+    color: white; /* Text color */
+    background-color: #ff5100; /* Button background color */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Adds rounded corners */
+    cursor: pointer; /* Adds a pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+    text-decoration: none; /* Remove underline if it's a link */
+  }
+
+  .button2:hover {
+    background-color: #af5d00; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarges button */
+  }
+
+  .button2:active {
+    background-color: #be5c00; /* Even darker blue on click */
+    transform: scale(0.95); /* Slightly shrinks button on click */
+  }
+
+  header {
+    width: 350px;
+    border-radius: 30px;
+    background-color: #8d00a0; /* Dark background color */
+    color: white; /* White text */
+    text-align: center; /* Centered text */
+    padding: 20px 0; /* Space inside the footer */
+    top: 0;
+}
+
+.contact-input {
+ width: 165px;
+ height: 40px;
+ border-radius: 12px;
+ background-color: #c0bfe7;
+}
